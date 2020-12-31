@@ -1,5 +1,6 @@
 {
   "name": "country-quiz",
+  "homepage": "https://c0llinn.github.io/CountryQuiz",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
