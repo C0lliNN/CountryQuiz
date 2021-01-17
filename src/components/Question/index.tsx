@@ -1,11 +1,11 @@
 import React from 'react';
 import { Container, Img, Title, Alternative, Button } from './styles';
-import { IQuestion } from '../../pages/Home';
+import { Question as QuestionInterface } from '../../shared/interfaces/question';
 import illustration from '../../assets/images/question_illustration.svg';
 import correctIcon from '../../assets/icons/check.svg';
 import wrongIcon from '../../assets/icons/close.svg';
 
-interface Props extends IQuestion {
+interface Props extends QuestionInterface {
   // eslint-disable-next-line no-unused-vars
   onAnswer(alternative: string): void;
   onNext(): void;
